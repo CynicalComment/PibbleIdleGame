@@ -9,7 +9,10 @@ In order for pibble to be full of joy and whimsy they must be:
 * full of food
     - Pibble must be kept fed by picking berries from bushes nearby and dragging them from an inventory
 + well rested
+  - Pibble needs to take comfy naps if they are cold place a blanket! if it is raining bring them shelter (doghouse)
 + safe from gleebles
-    - Pibble will go to sleep at times and you have to protect them from other animals and the environment! if it is cold place a blanket on a sleeping pibble or if it is raining drag a dog house over pibble
+    - Gleebles will try to abduct pibble in their flying saucer
+    -  click them away before their tractor beam sends pibble away forever
+    -  he will fall down with a parachute safely.
 > Gleebles are another internet alien pet thing.
 

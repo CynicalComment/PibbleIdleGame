@@ -1,4 +1,5 @@
 # Pibble Survival
+> https://github.com/CynicalComment/PibbleIdleGame/tree/main
 ## Survival Game with a dog (Pibble) trying to be full of joy and whimsy
 > Pibble is a cute internet term for chubby baby dogs
 > particularly baby french bull dogs

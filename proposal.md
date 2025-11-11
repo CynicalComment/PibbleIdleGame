@@ -48,11 +48,12 @@ I will learn how to Import images into python to be used as sprites I remember s
   - Happy Ending where pibble goes "YAAAAY"
 
 ###### Milestones
+week 1
 1. Place a good looking pibble character on a screen with a background which can then get added functionality
 2. Add status bars which slowly tick down and can then be restored when giving pibble food, bath, sleep
-   
+week 2
 4. Add a randomly spawning ufo that grabs the pibble sprite and can cause a game over screen
 5. Create an inventory where berries and pibble supplies can be stored for use on pibble
-   
+week 3   
 7. Win screen for a happy pibble
 8. Sound effects and small ui changes like highlights on items when the mouse cursor is over them.

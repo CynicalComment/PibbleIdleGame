@@ -29,6 +29,14 @@ while running:
             running = False
 
     if rect.collidepoint(mouse_pos):
+        time_cleaning_elapsed += 1
+        if time_cleaning_elapsed >= 10:
+            time_elapsed = (time_elapsed + 1) % 5
+            sprite = PibbleState[time_elapsed]
+            time_cleaning_elapsed = 0
+    else:
+        time_cleaning_elapsed = 0
+            
 
     screen.fill('black')
 

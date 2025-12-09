@@ -17,6 +17,9 @@ PibbleState = [
 
 time_elapsed = 0
 time_cleaning_elapsed = 0
+
+sprite = PibbleState[0]
+rect = sprite.get_rect(center=(200,200))
 running = True
 while running:
     mouse_pos = pygame.mouse.get_pos()
@@ -24,6 +27,8 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+    if rect.collidepoint(mouse_pos):
 
     screen.fill('black')
 

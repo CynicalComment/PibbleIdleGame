@@ -1,8 +1,8 @@
 import pygame
 
 pygame.init()
-SCREEN_WIDTH = 400
-SCREEN_HEIGHT = 400
+SCREEN_WIDTH = 600  
+SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 clicked = False
 clock = pygame.time.Clock()
@@ -33,6 +33,7 @@ while running:
         if time_cleaning_elapsed >= 10:
             time_elapsed = (time_elapsed + 1) % 5
             sprite = PibbleState[time_elapsed]
+            rect = sprite.get_rect(center=rect.center)
             time_cleaning_elapsed = 0
     else:
         time_cleaning_elapsed = 0

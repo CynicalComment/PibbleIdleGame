@@ -41,6 +41,7 @@ while running:
     screen.fill('black')
 
     pygame.draw.circle(screen, "pink", mouse_pos,10)
+    screen.blit(sprite,rect)
     #RENDER HERE
     pygame.display.flip()
 
